@@ -1,0 +1,94 @@
+*{
+margin: 0%;
+padding: 0px;
+box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.back{
+    height: 100%;
+    width:100%;
+    background-color: #6c5ce7;
+    border-radius: 10px;
+}
+
+.gamebord{
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 80%;
+    width:65%;
+    background-color: rgb(213, 213, 214);
+}
+
+.gamebord .top{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    width: 100%;
+    background-color: #a29bfe;
+}
+
+.gamebord .top .dashBord{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    color: rgb(255, 255, 255);
+    background-color: transparent;
+    font-weight: 100;
+}
+
+.gamebord .top .dashBord h1{
+    font-weight: 100;
+    font-size: 32px;
+}
+
+.gamebord .top .dashBord .text{
+    padding: 5px 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 22px;
+    font-weight: 700;
+    margin-left: 15px;
+    color: #a29bfe;
+}
+
+.gamebord .bottom{
+    height:calc(100% - 100px);
+    display: flex;
+    flex-wrap:wrap;
+    padding: 15px 25px;
+    width: 100%;
+    overflow: auto;
+    background-color: #fff;
+}
+.gamebord .bottom .bubble{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 8px;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    background-color: #a29bfe;
+    cursor: pointer;
+}
+
+.bottom h6{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 32px;
+    font-weight: 300;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    transform: translate(-50%,-50%);
+    color: #a29bfe;
+}
